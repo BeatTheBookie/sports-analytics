@@ -49,7 +49,6 @@ create or replace PYTHON3 set script voronoi_showcase.voronoi_polygons
 	)
 emits 
 	(
-	--test varchar(1000)
 	match_id 		  varchar(100),
 	team_id		    varchar(100),
 	person_id		  varchar(100),
